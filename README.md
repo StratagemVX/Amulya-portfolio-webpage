@@ -40,3 +40,24 @@ npm run dev
 - **Engineering Contributor:** Chethan Kumar B S (`StratagemVX`)
 - **GitHub:** [https://github.com/StratagemVX](https://github.com/StratagemVX)
 - **Portfolio:** [https://chethan-kumar-portfolio.vercel.app/](https://chethan-kumar-portfolio.vercel.app/)
+
+## Verification and maintenance
+
+Use the project source and package manifest as the authority for implemented features and operational commands.
+
+### Available package scripts
+
+- `npm run dev` — `vite`
+- `npm run build` — `vite build`
+- `npm run lint` — `eslint .`
+- `npm run preview` — `vite preview`
+
+These are manifest-defined commands, not evidence that builds or tests have passed.
+
+### Contribution and security notes
+
+- Keep feature lists, architecture, screenshots, and dependencies synchronized with the implementation.
+- Never commit credentials, private keys, production data, or local environment files. Use placeholder-only examples and deployment-managed secrets.
+- Describe external services and environment-variable names without exposing secret values.
+- Include reproduction steps and expected versus actual behavior in issue reports.
+- Run relevant checks before merging. For account-seeding workflows, provision unique credentials through trusted environment configuration and never print passwords to logs.
